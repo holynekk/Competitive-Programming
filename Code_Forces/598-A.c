@@ -11,7 +11,7 @@ int main(){
         total = y*(y+1)/2;
         long q = 1;
         while(q <= y ){
-            total -= 2*q;
+            total -= 2 * q;
             q *= 2;
 
         }printf("%lld\n",total);
