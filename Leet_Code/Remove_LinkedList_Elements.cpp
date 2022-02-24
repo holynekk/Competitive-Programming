@@ -9,20 +9,20 @@
  * };
  */
 class Solution {
-public:  
+public:
     ListNode* removeElements(ListNode* head, int val) {
-        while(head && head->val == val){
-            head = head->next;
-        }if(!head){
-            return nullptr;
-        }
-        ListNode * tmp = head;
-        while(tmp->next){
-            if(tmp->next->val == val){
-                tmp->next = tmp->next->next;
-            }else{
-                tmp = tmp->next;
+        ListNode dummy(0);
+        dummy.next = head;
+        ListNode * temp1 = &dummy, * temp2 = head;
+        while(temp2) {
+            if (temp2->val == val) {
+                temp1->next = temp2->next;
+                temp2 = temp2->next;
+            } else {
+                temp1 = temp1->next;
+                temp2 = temp2->next;
             }
-        }return head;
+        }
+        return dummy.next;
     }
 };
