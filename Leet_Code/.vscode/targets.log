@@ -6,7 +6,7 @@ make all --print-data-base --no-builtin-variables --no-builtin-rules --question
 # This is free software: you are free to change and redistribute it.
 # There is NO WARRANTY, to the extent permitted by law.
 
-# Make data base, printed on Wed Aug 17 21:26:57 2022
+# Make data base, printed on Sun Aug 21 13:05:22 2022
 
 # Variables
 
@@ -18,7 +18,6 @@ make all --print-data-base --no-builtin-variables --no-builtin-rules --question
 PAPERSIZE = a4
 # environment
 DESKTOP_SESSION = ubuntu
- 
 # default
 .SHELLFLAGS := -c
 # environment
@@ -50,7 +49,7 @@ VSCODE_NLS_CONFIG = {"locale":"en-us","availableLanguages":{},"_languagePackSupp
 # environment
 _ = /usr/share/code/code
 # environment
-JOURNAL_STREAM = 8:57595
+JOURNAL_STREAM = 8:55619
 # environment
 XDG_CONFIG_DIRS = /etc/xdg/xdg-ubuntu:/etc/xdg
 # makefile (from 'makefile', line 1)
@@ -70,7 +69,7 @@ XDG_DATA_DIRS = /usr/share/ubuntu:/usr/local/share:/usr/share:/var/lib/snapd/des
 # environment
 DBUS_SESSION_BUS_ADDRESS = unix:path=/run/user/1000/bus
 # environment
-MANAGERPID = 2591
+MANAGERPID = 2589
 # environment
 LESSOPEN = | /usr/bin/lesspipe %s
 # environment
@@ -98,7 +97,7 @@ XDG_MENU_PREFIX = gnome-
 # environment
 ELECTRON_RUN_AS_NODE = 1
 # environment
-INVOCATION_ID = 481ef147e66848519dec45c0e3103bbb
+INVOCATION_ID = 991f7f915a2a4d82964df369e1e0fbb9
 # default
 .FEATURES := target-specific order-only second-expansion else-if shortest-stem undefine oneshell archives jobserver output-sync check-symlink load
 # environment
@@ -110,7 +109,7 @@ XDG_SESSION_DESKTOP = ubuntu
 # environment
 SSH_AUTH_SOCK = /run/user/1000/keyring/ssh
 # environment
-GIO_LAUNCHED_DESKTOP_FILE_PID = 11713
+GIO_LAUNCHED_DESKTOP_FILE_PID = 10439
 # automatic
 %F = $(notdir $%)
 # environment
@@ -120,7 +119,7 @@ PWD = /home/holynekk/Desktop/Competitive-Programming/Leet_Code
 # default
 .LOADED := 
 # environment
-SSH_AGENT_PID = 2736
+SSH_AGENT_PID = 2733
 # environment
 ORIGINAL_XDG_CURRENT_DESKTOP = ubuntu:GNOME
 # environment
@@ -133,7 +132,6 @@ HOME = /home/holynekk
 LESSCLOSE = /usr/bin/lesspipe %s %s
 # environment
 VSCODE_CODE_CACHE_PATH = /home/holynekk/.config/Code/CachedData/3b889b090b5ad5793f524b5d1d39fda662b96a2a
- 
 # environment
 LOGNAME = holynekk
 # environment
@@ -235,7 +233,7 @@ LC_ADDRESS = tr_TR.UTF-8
 # environment
 LANG = C
 # environment
-VSCODE_PID = 11713
+VSCODE_PID = 10439
 # variable set hash-table stats:
 # Load=112/1024=11%, Rehash=0, Collisions=13/140=9%
 
@@ -245,9 +243,9 @@ VSCODE_PID = 11713
 
 # Directories
 
-# . (device 66308, inode 3018703): 176 files, no impossibilities.
+# . (device 66308, inode 3018703): 177 files, no impossibilities.
 
-# 176 files, no impossibilities in 1 directories.
+# 177 files, no impossibilities in 1 directories.
 
 # Implicit Rules
 
@@ -292,6 +290,7 @@ all:
 #  File has not been updated.
 
 # Not a target:
+ 
 makefile:
 #  Implicit rule search has been done.
 #  Last modified 2022-02-22 02:55:48.559773277
@@ -312,12 +311,12 @@ makefile:
 
 # No general ('VPATH' variable) search path.
 
-# strcache buffers: 1 (0) / strings = 181 / storage = 4968 B / avg = 27 B
-# current buf: size = 8162 B / used = 4968 B / count = 181 / avg = 27 B
+# strcache buffers: 1 (0) / strings = 182 / storage = 5018 B / avg = 27 B
+# current buf: size = 8162 B / used = 5018 B / count = 182 / avg = 27 B
 
-# strcache performance: lookups = 188 / hit rate = 3%
+# strcache performance: lookups = 189 / hit rate = 3%
 # hash-table stats:
-# Load=181/8192=2%, Rehash=0, Collisions=7/188=4%
-# Finished Make data base on Wed Aug 17 21:26:57 2022
+# Load=182/8192=2%, Rehash=0, Collisions=7/189=4%
+# Finished Make data base on Sun Aug 21 13:05:22 2022
 
  
