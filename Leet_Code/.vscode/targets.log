@@ -6,7 +6,7 @@ make all --print-data-base --no-builtin-variables --no-builtin-rules --question
 # This is free software: you are free to change and redistribute it.
 # There is NO WARRANTY, to the extent permitted by law.
 
-# Make data base, printed on Sun Aug 21 13:05:22 2022
+# Make data base, printed on Tue Aug 23 12:32:46 2022
 
 # Variables
 
@@ -49,7 +49,7 @@ VSCODE_NLS_CONFIG = {"locale":"en-us","availableLanguages":{},"_languagePackSupp
 # environment
 _ = /usr/share/code/code
 # environment
-JOURNAL_STREAM = 8:55619
+JOURNAL_STREAM = 8:57680
 # environment
 XDG_CONFIG_DIRS = /etc/xdg/xdg-ubuntu:/etc/xdg
 # makefile (from 'makefile', line 1)
@@ -69,7 +69,7 @@ XDG_DATA_DIRS = /usr/share/ubuntu:/usr/local/share:/usr/share:/var/lib/snapd/des
 # environment
 DBUS_SESSION_BUS_ADDRESS = unix:path=/run/user/1000/bus
 # environment
-MANAGERPID = 2589
+MANAGERPID = 2634
 # environment
 LESSOPEN = | /usr/bin/lesspipe %s
 # environment
@@ -87,7 +87,7 @@ GPG_AGENT_INFO = /run/user/1000/gnupg/S.gpg-agent:0:1
 # environment
 GJS_DEBUG_OUTPUT = stderr
 # environment
-SESSION_MANAGER = local/HolyMoly:@/tmp/.ICE-unix/2784,unix/HolyMoly:/tmp/.ICE-unix/2784
+SESSION_MANAGER = local/HolyMoly:@/tmp/.ICE-unix/2827,unix/HolyMoly:/tmp/.ICE-unix/2827
 # environment
 XDG_RUNTIME_DIR = /run/user/1000
 # environment
@@ -97,7 +97,7 @@ XDG_MENU_PREFIX = gnome-
 # environment
 ELECTRON_RUN_AS_NODE = 1
 # environment
-INVOCATION_ID = 991f7f915a2a4d82964df369e1e0fbb9
+INVOCATION_ID = 228aed72355a47eea4905a76a7db4ad2
 # default
 .FEATURES := target-specific order-only second-expansion else-if shortest-stem undefine oneshell archives jobserver output-sync check-symlink load
 # environment
@@ -109,7 +109,7 @@ XDG_SESSION_DESKTOP = ubuntu
 # environment
 SSH_AUTH_SOCK = /run/user/1000/keyring/ssh
 # environment
-GIO_LAUNCHED_DESKTOP_FILE_PID = 10439
+GIO_LAUNCHED_DESKTOP_FILE_PID = 15317
 # automatic
 %F = $(notdir $%)
 # environment
@@ -119,7 +119,7 @@ PWD = /home/holynekk/Desktop/Competitive-Programming/Leet_Code
 # default
 .LOADED := 
 # environment
-SSH_AGENT_PID = 2733
+SSH_AGENT_PID = 2779
 # environment
 ORIGINAL_XDG_CURRENT_DESKTOP = ubuntu:GNOME
 # environment
@@ -131,7 +131,7 @@ HOME = /home/holynekk
 # environment
 LESSCLOSE = /usr/bin/lesspipe %s %s
 # environment
-VSCODE_CODE_CACHE_PATH = /home/holynekk/.config/Code/CachedData/3b889b090b5ad5793f524b5d1d39fda662b96a2a
+VSCODE_CODE_CACHE_PATH = /home/holynekk/.config/Code/CachedData/e4503b30fc78200f846c62cf8091b76ff5547662
 # environment
 LOGNAME = holynekk
 # environment
@@ -185,7 +185,7 @@ LANGUAGE = en_US:en
 # environment
 XDG_SEAT_PATH = /org/freedesktop/DisplayManager/Seat0
 # environment
-VSCODE_IPC_HOOK = /run/user/1000/vscode-09247fed-1.69.2-main.sock
+VSCODE_IPC_HOOK = /run/user/1000/vscode-09247fed-1.70.2-main.sock
 # makefile
 MAKEFLAGS = pqrR
 # environment
@@ -233,7 +233,7 @@ LC_ADDRESS = tr_TR.UTF-8
 # environment
 LANG = C
 # environment
-VSCODE_PID = 10439
+VSCODE_PID = 15317
 # variable set hash-table stats:
 # Load=112/1024=11%, Rehash=0, Collisions=13/140=9%
 
@@ -243,9 +243,9 @@ VSCODE_PID = 10439
 
 # Directories
 
-# . (device 66308, inode 3018703): 177 files, no impossibilities.
+# . (device 66308, inode 3018703): 179 files, no impossibilities.
 
-# 177 files, no impossibilities in 1 directories.
+# 179 files, no impossibilities in 1 directories.
 
 # Implicit Rules
 
@@ -288,9 +288,9 @@ all:
 #  Implicit rule search has not been done.
 #  Modification time never checked.
 #  File has not been updated.
+ 
 
 # Not a target:
- 
 makefile:
 #  Implicit rule search has been done.
 #  Last modified 2022-02-22 02:55:48.559773277
@@ -311,12 +311,12 @@ makefile:
 
 # No general ('VPATH' variable) search path.
 
-# strcache buffers: 1 (0) / strings = 182 / storage = 5018 B / avg = 27 B
-# current buf: size = 8162 B / used = 5018 B / count = 182 / avg = 27 B
+# strcache buffers: 1 (0) / strings = 184 / storage = 5047 B / avg = 27 B
+# current buf: size = 8162 B / used = 5047 B / count = 184 / avg = 27 B
 
-# strcache performance: lookups = 189 / hit rate = 3%
+# strcache performance: lookups = 191 / hit rate = 3%
 # hash-table stats:
-# Load=182/8192=2%, Rehash=0, Collisions=7/189=4%
-# Finished Make data base on Sun Aug 21 13:05:22 2022
+# Load=184/8192=2%, Rehash=0, Collisions=7/191=4%
+# Finished Make data base on Tue Aug 23 12:32:46 2022
 
  
