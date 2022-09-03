@@ -13,4 +13,4 @@ class Solution:
         root1.val += root2.val
         root1.left = self.mergeTrees(root1.left, root2.left)
         root1.right = self.mergeTrees(root1.right, root2.right)
-        return root1
+        return root1z
