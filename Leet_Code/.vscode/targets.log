@@ -6,7 +6,7 @@ make all --print-data-base --no-builtin-variables --no-builtin-rules --question
 # This is free software: you are free to change and redistribute it.
 # There is NO WARRANTY, to the extent permitted by law.
 
-# Make data base, printed on Sat Sep  3 12:24:49 2022
+# Make data base, printed on Sat Sep  3 14:23:34 2022
 
 # Variables
 
@@ -109,7 +109,7 @@ XDG_SESSION_DESKTOP = ubuntu
 # environment
 SSH_AUTH_SOCK = /run/user/1000/keyring/ssh
 # environment
-GIO_LAUNCHED_DESKTOP_FILE_PID = 50162
+GIO_LAUNCHED_DESKTOP_FILE_PID = 312991
 # automatic
 %F = $(notdir $%)
 # environment
@@ -233,7 +233,7 @@ LC_ADDRESS = tr_TR.UTF-8
 # environment
 LANG = C
 # environment
-VSCODE_PID = 50162
+VSCODE_PID = 312991
 # variable set hash-table stats:
 # Load=112/1024=11%, Rehash=0, Collisions=13/140=9%
 
@@ -243,9 +243,9 @@ VSCODE_PID = 50162
 
 # Directories
 
-# . (device 66308, inode 3018703): 204 files, no impossibilities.
+# . (device 66308, inode 3018703): 207 files, no impossibilities.
 
-# 204 files, no impossibilities in 1 directories.
+# 207 files, no impossibilities in 1 directories.
 
 # Implicit Rules
 
@@ -284,6 +284,7 @@ all:
 	git push
 
 # Not a target:
+ 
 .SUFFIXES:
 #  Implicit rule search has not been done.
 #  Modification time never checked.
@@ -292,7 +293,6 @@ all:
 # Not a target:
 makefile:
 #  Implicit rule search has been done.
- 
 #  Last modified 2022-02-22 02:55:48.559773277
 #  File has been updated.
 #  Successfully updated.
@@ -311,12 +311,12 @@ makefile:
 
 # No general ('VPATH' variable) search path.
 
-# strcache buffers: 1 (0) / strings = 209 / storage = 5782 B / avg = 27 B
-# current buf: size = 8162 B / used = 5782 B / count = 209 / avg = 27 B
+# strcache buffers: 1 (0) / strings = 212 / storage = 5906 B / avg = 27 B
+# current buf: size = 8162 B / used = 5906 B / count = 212 / avg = 27 B
 
-# strcache performance: lookups = 216 / hit rate = 3%
+# strcache performance: lookups = 219 / hit rate = 3%
 # hash-table stats:
-# Load=209/8192=3%, Rehash=0, Collisions=8/216=4%
-# Finished Make data base on Sat Sep  3 12:24:49 2022
+# Load=212/8192=3%, Rehash=0, Collisions=8/219=4%
+# Finished Make data base on Sat Sep  3 14:23:34 2022
 
  
