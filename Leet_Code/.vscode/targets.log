@@ -6,7 +6,7 @@ make all --print-data-base --no-builtin-variables --no-builtin-rules --question
 # This is free software: you are free to change and redistribute it.
 # There is NO WARRANTY, to the extent permitted by law.
 
-# Make data base, printed on Thu Sep  1 11:03:26 2022
+# Make data base, printed on Sat Sep  3 12:24:49 2022
 
 # Variables
 
@@ -49,7 +49,7 @@ VSCODE_NLS_CONFIG = {"locale":"en-us","availableLanguages":{},"_languagePackSupp
 # environment
 _ = /usr/share/code/code
 # environment
-JOURNAL_STREAM = 8:45831
+JOURNAL_STREAM = 8:90916
 # environment
 XDG_CONFIG_DIRS = /etc/xdg/xdg-ubuntu:/etc/xdg
 # makefile (from 'makefile', line 1)
@@ -69,7 +69,7 @@ XDG_DATA_DIRS = /usr/share/ubuntu:/usr/local/share:/usr/share:/var/lib/snapd/des
 # environment
 DBUS_SESSION_BUS_ADDRESS = unix:path=/run/user/1000/bus
 # environment
-MANAGERPID = 2578
+MANAGERPID = 46648
 # environment
 LESSOPEN = | /usr/bin/lesspipe %s
 # environment
@@ -87,7 +87,7 @@ GPG_AGENT_INFO = /run/user/1000/gnupg/S.gpg-agent:0:1
 # environment
 GJS_DEBUG_OUTPUT = stderr
 # environment
-SESSION_MANAGER = local/HolyMoly:@/tmp/.ICE-unix/2771,unix/HolyMoly:/tmp/.ICE-unix/2771
+SESSION_MANAGER = local/HolyMoly:@/tmp/.ICE-unix/46841,unix/HolyMoly:/tmp/.ICE-unix/46841
 # environment
 XDG_RUNTIME_DIR = /run/user/1000
 # environment
@@ -97,7 +97,7 @@ XDG_MENU_PREFIX = gnome-
 # environment
 ELECTRON_RUN_AS_NODE = 1
 # environment
-INVOCATION_ID = 429bd7dc762848459db6c82104d88be9
+INVOCATION_ID = 19319ac3ba554691a8841284973629ea
 # default
 .FEATURES := target-specific order-only second-expansion else-if shortest-stem undefine oneshell archives jobserver output-sync check-symlink load
 # environment
@@ -109,7 +109,7 @@ XDG_SESSION_DESKTOP = ubuntu
 # environment
 SSH_AUTH_SOCK = /run/user/1000/keyring/ssh
 # environment
-GIO_LAUNCHED_DESKTOP_FILE_PID = 4020
+GIO_LAUNCHED_DESKTOP_FILE_PID = 50162
 # automatic
 %F = $(notdir $%)
 # environment
@@ -119,7 +119,7 @@ PWD = /home/holynekk/Desktop/Competitive-Programming/Leet_Code
 # default
 .LOADED := 
 # environment
-SSH_AGENT_PID = 2723
+SSH_AGENT_PID = 46793
 # environment
 ORIGINAL_XDG_CURRENT_DESKTOP = ubuntu:GNOME
 # environment
@@ -233,7 +233,7 @@ LC_ADDRESS = tr_TR.UTF-8
 # environment
 LANG = C
 # environment
-VSCODE_PID = 4020
+VSCODE_PID = 50162
 # variable set hash-table stats:
 # Load=112/1024=11%, Rehash=0, Collisions=13/140=9%
 
@@ -243,9 +243,9 @@ VSCODE_PID = 4020
 
 # Directories
 
-# . (device 66308, inode 3018703): 201 files, no impossibilities.
+# . (device 66308, inode 3018703): 204 files, no impossibilities.
 
-# 201 files, no impossibilities in 1 directories.
+# 204 files, no impossibilities in 1 directories.
 
 # Implicit Rules
 
@@ -278,7 +278,6 @@ all:
 # ? := 
 # variable set hash-table stats:
 # Load=8/32=25%, Rehash=0, Collisions=1/11=9%
- 
 #  recipe to execute (from 'makefile', line 2):
 	git add .
 	git commit -m "solution added"
@@ -293,6 +292,7 @@ all:
 # Not a target:
 makefile:
 #  Implicit rule search has been done.
+ 
 #  Last modified 2022-02-22 02:55:48.559773277
 #  File has been updated.
 #  Successfully updated.
@@ -311,12 +311,12 @@ makefile:
 
 # No general ('VPATH' variable) search path.
 
-# strcache buffers: 1 (0) / strings = 206 / storage = 5706 B / avg = 27 B
-# current buf: size = 8162 B / used = 5706 B / count = 206 / avg = 27 B
+# strcache buffers: 1 (0) / strings = 209 / storage = 5782 B / avg = 27 B
+# current buf: size = 8162 B / used = 5782 B / count = 209 / avg = 27 B
 
-# strcache performance: lookups = 213 / hit rate = 3%
+# strcache performance: lookups = 216 / hit rate = 3%
 # hash-table stats:
-# Load=206/8192=3%, Rehash=0, Collisions=8/213=4%
-# Finished Make data base on Thu Sep  1 11:03:26 2022
+# Load=209/8192=3%, Rehash=0, Collisions=8/216=4%
+# Finished Make data base on Sat Sep  3 12:24:49 2022
 
  
