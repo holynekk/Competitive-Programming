@@ -1,241 +1,235 @@
 make all --print-data-base --no-builtin-variables --no-builtin-rules --question
-# GNU Make 4.2.1
+# GNU Make 4.3
 # Built for x86_64-pc-linux-gnu
-# Copyright (C) 1988-2016 Free Software Foundation, Inc.
+# Copyright (C) 1988-2020 Free Software Foundation, Inc.
 # License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
 # This is free software: you are free to change and redistribute it.
 # There is NO WARRANTY, to the extent permitted by law.
 
-# Make data base, printed on Sat Sep 17 20:35:08 2022
+# Make data base, printed on Tue Feb 28 13:42:18 2023
 
 # Variables
 
-# automatic
-<D = $(patsubst %/,%,$(dir $<))
-# automatic
-?F = $(notdir $?)
 # environment
-PAPERSIZE = a4
+GDK_BACKEND = x11
 # environment
-DESKTOP_SESSION = ubuntu
-# default
-.SHELLFLAGS := -c
+LC_ALL = C
 # environment
-XDG_SESSION_CLASS = user
+GNOME_SHELL_SESSION_MODE = ubuntu
 # environment
-XDG_SESSION_TYPE = x11
-# environment
-NVM_INC = /home/holynekk/.nvm/versions/node/v18.4.0/include/node
-# automatic
-?D = $(patsubst %/,%,$(dir $?))
-# environment
-IM_CONFIG_PHASE = 1
-# automatic
-@D = $(patsubst %/,%,$(dir $@))
-# environment
-XAUTHORITY = /home/holynekk/.Xauthority
-# environment
-GDMSESSION = ubuntu
-# environment
-XMODIFIERS = @im=ibus
-# makefile
-CURDIR := /home/holynekk/Desktop/Competitive-Programming/Leet_Code
-# makefile
-SHELL = /bin/sh
-# environment
-GDM_LANG = en_US
-# environment
-VSCODE_NLS_CONFIG = {"locale":"en-us","availableLanguages":{},"_languagePackSupport":true}
-# environment
-_ = /usr/share/code/code
-# environment
-JOURNAL_STREAM = 8:56604
-# environment
-XDG_CONFIG_DIRS = /etc/xdg/xdg-ubuntu:/etc/xdg
-# makefile (from 'makefile', line 1)
-MAKEFILE_LIST :=  makefile
-# automatic
-@F = $(notdir $@)
-# environment
-GIO_LAUNCHED_DESKTOP_FILE = /usr/share/applications/code.desktop
-# 'override' directive
-GNUMAKEFLAGS := 
-# environment
-MAKELEVEL := 0
-# environment
-MANDATORY_PATH = /usr/share/gconf/ubuntu.mandatory.path
-# environment
-XDG_DATA_DIRS = /usr/share/ubuntu:/usr/local/share:/usr/share:/var/lib/snapd/desktop
-# environment
-DBUS_SESSION_BUS_ADDRESS = unix:path=/run/user/1000/bus
-# environment
-MANAGERPID = 3549
-# environment
-LESSOPEN = | /usr/bin/lesspipe %s
-# environment
-LC_NAME = tr_TR.UTF-8
-# environment
-VSCODE_CWD = /home/holynekk
-# environment
-XDG_SESSION_PATH = /org/freedesktop/DisplayManager/Session0
-# default
-MAKE_HOST := x86_64-pc-linux-gnu
-# environment
-PATH = /home/holynekk/.local/bin:/home/holynekk/.nvm/versions/node/v18.4.0/bin:/home/holynekk/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
-# environment
-GPG_AGENT_INFO = /run/user/1000/gnupg/S.gpg-agent:0:1
+SSH_AGENT_LAUNCHER = gnome-keyring
 # environment
 GJS_DEBUG_OUTPUT = stderr
 # environment
-SESSION_MANAGER = local/HolyMoly:@/tmp/.ICE-unix/3741,unix/HolyMoly:/tmp/.ICE-unix/3741
+MANDATORY_PATH = /usr/share/gconf/ubuntu.mandatory.path
 # environment
-XDG_RUNTIME_DIR = /run/user/1000
+LC_NAME = tr_TR.UTF-8
 # environment
-NVM_BIN = /home/holynekk/.nvm/versions/node/v18.4.0/bin
+LC_NUMERIC = tr_TR.UTF-8
 # environment
-XDG_MENU_PREFIX = gnome-
+VSCODE_CWD = /home/holynekk
 # environment
-ELECTRON_RUN_AS_NODE = 1
+WINDOWPATH = 2
 # environment
-INVOCATION_ID = d6e66cf181c84df5b77ae382c0743bec
+NVM_DIR = /home/holynekk/.nvm
+# environment
+LC_ADDRESS = tr_TR.UTF-8
+# environment
+LIBVIRT_DEFAULT_URI = qemu:///system
 # default
-.FEATURES := target-specific order-only second-expansion else-if shortest-stem undefine oneshell archives jobserver output-sync check-symlink load
+MAKE_COMMAND := make
 # environment
-XDG_GREETER_DATA_DIR = /var/lib/lightdm-data/holynekk
+QT_ACCESSIBILITY = 1
+# automatic
+@D = $(patsubst %/,%,$(dir $@))
 # environment
-LS_COLORS = 
+VSCODE_HANDLES_UNCAUGHT_ERRORS = true
+# default
+.VARIABLES := 
 # environment
-XDG_SESSION_DESKTOP = ubuntu
+PWD = /home/holynekk/Desktop/Competitive-Programming/Leet_Code
+# automatic
+%D = $(patsubst %/,%,$(dir $%))
 # environment
-SSH_AUTH_SOCK = /run/user/1000/keyring/ssh
-# environment
-GIO_LAUNCHED_DESKTOP_FILE_PID = 5970
+XDG_DATA_DIRS = /usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop
+# automatic
+^D = $(patsubst %/,%,$(dir $^))
 # automatic
 %F = $(notdir $%)
 # environment
-DISPLAY = :0
+NVM_INC = /home/holynekk/.nvm/versions/node/v18.4.0/include/node
 # environment
-PWD = /home/holynekk/Desktop/Competitive-Programming/Leet_Code
+VSCODE_CODE_CACHE_PATH = /home/holynekk/.config/Code/CachedData/441438abd1ac652551dbe4d408dfcec8a499b8bf
+# environment
+LANG = C
+# environment
+XAUTHORITY = /run/user/1000/gdm/Xauthority
 # default
 .LOADED := 
+# default
+.INCLUDE_DIRS = /usr/local/include /usr/include /usr/include
+# makefile
+MAKEFLAGS = pqrR
+# makefile
+CURDIR := /home/holynekk/Desktop/Competitive-Programming/Leet_Code
 # environment
-SSH_AGENT_PID = 3696
+APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = 1
+# environment
+LESSOPEN = | /usr/bin/lesspipe %s
+# automatic
+*D = $(patsubst %/,%,$(dir $*))
+# environment
+MFLAGS = -pqrR
+# environment
+SSH_AUTH_SOCK = /run/user/1000/keyring/ssh
+# default
+.SHELLFLAGS := -c
+# environment
+NVM_BIN = /home/holynekk/.nvm/versions/node/v18.4.0/bin
+# environment
+XDG_CONFIG_DIRS = /etc/xdg/xdg-ubuntu:/etc/xdg
+# automatic
++D = $(patsubst %/,%,$(dir $+))
+# environment
+XDG_SESSION_DESKTOP = ubuntu
+# makefile (from 'makefile', line 1)
+MAKEFILE_LIST := makefile
+# automatic
+@F = $(notdir $@)
+# environment
+VSCODE_PID = 48961
+# environment
+XDG_SESSION_TYPE = x11
+# automatic
+?D = $(patsubst %/,%,$(dir $?))
+# environment
+SESSION_MANAGER = local/HolyMoly:@/tmp/.ICE-unix/10057,unix/HolyMoly:/tmp/.ICE-unix/10057
+# automatic
+*F = $(notdir $*)
+# environment
+CHROME_DESKTOP = code-url-handler.desktop
+# environment
+DBUS_SESSION_BUS_ADDRESS = unix:path=/run/user/1000/bus
+# automatic
+<D = $(patsubst %/,%,$(dir $<))
+# environment
+VSCODE_NLS_CONFIG = {"locale":"en-us","availableLanguages":{},"_languagePackSupport":true}
+# default
+MAKE_HOST := x86_64-pc-linux-gnu
+# environment
+GNOME_DESKTOP_SESSION_ID = this-is-deprecated
+# makefile
+SHELL = /bin/sh
+# default
+MAKECMDGOALS := all
+# environment
+XMODIFIERS = @im=ibus
+# environment
+GJS_DEBUG_TOPICS = JS ERROR;JS LOG
+# environment
+SHLVL = 0
+# environment
+MAKELEVEL := 0
+# default
+MAKE = $(MAKE_COMMAND)
+# environment
+PATH = /home/holynekk/.local/bin:/home/holynekk/.nvm/versions/node/v18.4.0/bin:/home/holynekk/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin
+# default
+MAKEFILES := 
+# environment
+LANGUAGE = en_US:en
+# environment
+LC_MONETARY = tr_TR.UTF-8
+# automatic
+^F = $(notdir $^)
+# environment
+LC_TIME = tr_TR.UTF-8
+# environment
+INVOCATION_ID = 6f6219126e494f0fbf54af38f8e19565
+# environment
+USERNAME = holynekk
+# environment
+LC_TELEPHONE = tr_TR.UTF-8
+# environment
+LESSCLOSE = /usr/bin/lesspipe %s %s
+# automatic
+?F = $(notdir $?)
+# environment
+XDG_CURRENT_DESKTOP = Unity
+# automatic
++F = $(notdir $+)
+# environment
+DESKTOP_SESSION = ubuntu
 # environment
 ORIGINAL_XDG_CURRENT_DESKTOP = ubuntu:GNOME
+# 'override' directive
+GNUMAKEFLAGS := 
+# environment
+LOGNAME = holynekk
+# environment
+GIO_LAUNCHED_DESKTOP_FILE = /usr/share/applications/code.desktop
+# makefile
+.DEFAULT_GOAL := all
+# environment
+SYSTEMD_EXEC_PID = 10077
+# environment
+DISPLAY = :1
+# environment
+USER = holynekk
 # environment
 GTK_MODULES = gail:atk-bridge
+# environment
+DEFAULTS_PATH = /usr/share/gconf/ubuntu.default.path
+# default
+MAKE_VERSION := 4.3
+# environment
+MANAGERPID = 9791
+# environment
+LC_MEASUREMENT = tr_TR.UTF-8
+# environment
+GIO_LAUNCHED_DESKTOP_FILE_PID = 48961
+# environment
+_ = /usr/share/code/code
+# environment
+LC_PAPER = tr_TR.UTF-8
+# environment
+XDG_RUNTIME_DIR = /run/user/1000
+# environment
+GPG_AGENT_INFO = /run/user/1000/gnupg/S.gpg-agent:0:1
+# environment
+JOURNAL_STREAM = 8:58563
+# environment
+XDG_SESSION_CLASS = user
 # environment
 VSCODE_AMD_ENTRYPOINT = vs/workbench/api/node/extensionHostProcess
 # environment
 HOME = /home/holynekk
 # environment
-LESSCLOSE = /usr/bin/lesspipe %s %s
-# environment
-VSCODE_CODE_CACHE_PATH = /home/holynekk/.config/Code/CachedData/e4503b30fc78200f846c62cf8091b76ff5547662
-# environment
-LOGNAME = holynekk
-# environment
-APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = 1
-# environment
-NVM_CD_FLAGS = 
-# automatic
-+F = $(notdir $+)
-# environment
-VSCODE_HANDLES_UNCAUGHT_ERRORS = true
-# environment
-GNOME_DESKTOP_SESSION_ID = this-is-deprecated
-# automatic
-^D = $(patsubst %/,%,$(dir $^))
-# environment
-LC_TIME = tr_TR.UTF-8
-# default
-MAKE = $(MAKE_COMMAND)
-# default
-MAKECMDGOALS := all
-# environment
 QT_IM_MODULE = ibus
 # environment
-SHLVL = 0
+ELECTRON_RUN_AS_NODE = 1
 # environment
-GNOME_SHELL_SESSION_MODE = ubuntu
-# default
-MAKE_VERSION := 4.2.1
+VSCODE_IPC_HOOK = /run/user/1000/vscode-09247fed-1.75.1-main.sock
 # environment
-USER = holynekk
+IM_CONFIG_PHASE = 1
 # environment
-LC_MONETARY = tr_TR.UTF-8
-# makefile
-.DEFAULT_GOAL := all
-# environment
-XDG_CURRENT_DESKTOP = Unity
-# environment
-LIBVIRT_DEFAULT_URI = qemu:///system
-# automatic
-%D = $(patsubst %/,%,$(dir $%))
-# environment
-LC_TELEPHONE = tr_TR.UTF-8
-# default
-MAKE_COMMAND := make
-# default
-.VARIABLES := 
-# automatic
-*F = $(notdir $*)
-# environment
-LANGUAGE = en_US:en
-# environment
-XDG_SEAT_PATH = /org/freedesktop/DisplayManager/Seat0
-# environment
-VSCODE_IPC_HOOK = /run/user/1000/vscode-09247fed-1.70.2-main.sock
-# makefile
-MAKEFLAGS = pqrR
-# environment
-MFLAGS = -pqrR
-# automatic
-*D = $(patsubst %/,%,$(dir $*))
-# environment
-NVM_DIR = /home/holynekk/.nvm
-# automatic
-+D = $(patsubst %/,%,$(dir $+))
-# environment
-GDK_BACKEND = x11
-# environment
-LC_PAPER = tr_TR.UTF-8
-# environment
-QT_ACCESSIBILITY = 1
-# environment
-DEFAULTS_PATH = /usr/share/gconf/ubuntu.default.path
-# default
-MAKEFILES := 
-# environment
-LC_NUMERIC = tr_TR.UTF-8
-# automatic
-<F = $(notdir $<)
-# environment
-LC_MEASUREMENT = tr_TR.UTF-8
-# environment
-LC_ALL = C
-# environment
-GJS_DEBUG_TOPICS = JS ERROR;JS LOG
-# automatic
-^F = $(notdir $^)
-# default
-SUFFIXES := 
-# environment
-CHROME_DESKTOP = code-url-handler.desktop
-# default
-.INCLUDE_DIRS = /usr/include /usr/local/include /usr/include
-# environment
-LC_IDENTIFICATION = tr_TR.UTF-8
+PAPERSIZE = a4
 # default
 .RECIPEPREFIX := 
+# automatic
+<F = $(notdir $<)
+# default
+SUFFIXES := 
+# default
+.FEATURES := target-specific order-only second-expansion else-if shortest-stem undefine oneshell nocomment grouped-target extra-prereqs archives jobserver output-sync check-symlink load
 # environment
-LC_ADDRESS = tr_TR.UTF-8
+XDG_MENU_PREFIX = gnome-
 # environment
-LANG = C
+GDMSESSION = ubuntu
 # environment
-VSCODE_PID = 5970
+LC_IDENTIFICATION = tr_TR.UTF-8
 # variable set hash-table stats:
-# Load=112/1024=11%, Rehash=0, Collisions=13/140=9%
+# Load=109/1024=11%, Rehash=0, Collisions=5/142=4%
 
 # Pattern-specific Variable Values
 
@@ -243,15 +237,21 @@ VSCODE_PID = 5970
 
 # Directories
 
-# . (device 66308, inode 3018703): 226 files, no impossibilities.
+# . (device 66308, inode 3018703): 228 files, no impossibilities.
 
-# 226 files, no impossibilities in 1 directories.
+# 228 files, no impossibilities in 1 directories.
 
 # Implicit Rules
 
 # No implicit rules.
 
 # Files
+
+# Not a target:
+.DEFAULT:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
 
 all:
 #  Command line target.
@@ -263,32 +263,25 @@ all:
 # automatic
 # @ := all
 # automatic
-# % := 
-# automatic
 # * := 
+# automatic
+# < := 
 # automatic
 # + := 
 # automatic
-# | := 
-# automatic
-# < := 
+# % := 
 # automatic
 # ^ := 
 # automatic
 # ? := 
+# automatic
+# | := 
 # variable set hash-table stats:
 # Load=8/32=25%, Rehash=0, Collisions=1/11=9%
 #  recipe to execute (from 'makefile', line 2):
- 
 	git add .
 	git commit -m "solution added"
 	git push
-
-# Not a target:
-.SUFFIXES:
-#  Implicit rule search has not been done.
-#  Modification time never checked.
-#  File has not been updated.
 
 # Not a target:
 makefile:
@@ -297,8 +290,9 @@ makefile:
 #  File has been updated.
 #  Successfully updated.
 
+ 
 # Not a target:
-.DEFAULT:
+.SUFFIXES:
 #  Implicit rule search has not been done.
 #  Modification time never checked.
 #  File has not been updated.
@@ -311,12 +305,12 @@ makefile:
 
 # No general ('VPATH' variable) search path.
 
-# strcache buffers: 1 (0) / strings = 231 / storage = 6502 B / avg = 28 B
-# current buf: size = 8162 B / used = 6502 B / count = 231 / avg = 28 B
+# strcache buffers: 1 (0) / strings = 233 / storage = 6567 B / avg = 28 B
+# current buf: size = 8162 B / used = 6567 B / count = 233 / avg = 28 B
 
-# strcache performance: lookups = 238 / hit rate = 2%
+# strcache performance: lookups = 240 / hit rate = 2%
 # hash-table stats:
-# Load=231/8192=3%, Rehash=0, Collisions=8/238=3%
-# Finished Make data base on Sat Sep 17 20:35:08 2022
+# Load=233/8192=3%, Rehash=0, Collisions=1/240=0%
+# Finished Make data base on Tue Feb 28 13:42:18 2023
 
  
