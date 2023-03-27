@@ -6,7 +6,7 @@ make all --print-data-base --no-builtin-variables --no-builtin-rules --question
 # This is free software: you are free to change and redistribute it.
 # There is NO WARRANTY, to the extent permitted by law.
 
-# Make data base, printed on Mon Mar 20 15:35:33 2023
+# Make data base, printed on Mon Mar 27 15:02:04 2023
 
 # Variables
 
@@ -14,8 +14,6 @@ make all --print-data-base --no-builtin-variables --no-builtin-rules --question
 GDK_BACKEND = x11
 # environment
 LC_ALL = C
-# environment
-NO_AT_BRIDGE = 1
 # environment
 GNOME_SHELL_SESSION_MODE = ubuntu
 # environment
@@ -101,7 +99,7 @@ MAKEFILE_LIST := makefile
 # automatic
 @F = $(notdir $@)
 # environment
-VSCODE_PID = 7878
+VSCODE_PID = 132618
 # environment
 XDG_SESSION_TYPE = x11
 # automatic
@@ -149,7 +147,7 @@ LC_MONETARY = tr_TR.UTF-8
 # environment
 LC_TIME = tr_TR.UTF-8
 # environment
-INVOCATION_ID = c6b1fea1b7b74dafa5a73bd701880696
+INVOCATION_ID = dd915629a87f4e44bba804eb63001414
 # environment
 USERNAME = holynekk
 # environment
@@ -187,11 +185,13 @@ DEFAULTS_PATH = /usr/share/gconf/ubuntu.default.path
 # default
 MAKE_VERSION := 4.3
 # environment
-MANAGERPID = 2604
+MANAGERPID = 2658
 # environment
 LC_MEASUREMENT = tr_TR.UTF-8
 # environment
-GIO_LAUNCHED_DESKTOP_FILE_PID = 7878
+NODE_TLS_REJECT_UNAUTHORIZED = 0
+# environment
+GIO_LAUNCHED_DESKTOP_FILE_PID = 132618
 # environment
 _ = /usr/share/code/code
 # environment
@@ -201,7 +201,7 @@ XDG_RUNTIME_DIR = /run/user/1000
 # environment
 GPG_AGENT_INFO = /run/user/1000/gnupg/S.gpg-agent:0:1
 # environment
-JOURNAL_STREAM = 8:47262
+JOURNAL_STREAM = 8:46443
 # environment
 XDG_SESSION_CLASS = user
 # environment
@@ -241,9 +241,9 @@ LC_IDENTIFICATION = tr_TR.UTF-8
 
 # Directories
 
-# . (device 66308, inode 3018703): 232 files, no impossibilities.
+# . (device 66308, inode 3018703): 233 files, no impossibilities.
 
-# 232 files, no impossibilities in 1 directories.
+# 233 files, no impossibilities in 1 directories.
 
 # Implicit Rules
 
@@ -278,7 +278,6 @@ all:
 # ^ := 
 # automatic
 # ? := 
- 
 # automatic
 # | := 
 # variable set hash-table stats:
@@ -291,6 +290,7 @@ all:
 # Not a target:
 makefile:
 #  Implicit rule search has been done.
+ 
 #  Last modified 2022-02-22 02:55:48.559773277
 #  File has been updated.
 #  Successfully updated.
@@ -309,12 +309,12 @@ makefile:
 
 # No general ('VPATH' variable) search path.
 
-# strcache buffers: 1 (0) / strings = 237 / storage = 6683 B / avg = 28 B
-# current buf: size = 8162 B / used = 6683 B / count = 237 / avg = 28 B
+# strcache buffers: 1 (0) / strings = 238 / storage = 6719 B / avg = 28 B
+# current buf: size = 8162 B / used = 6719 B / count = 238 / avg = 28 B
 
-# strcache performance: lookups = 244 / hit rate = 2%
+# strcache performance: lookups = 245 / hit rate = 2%
 # hash-table stats:
-# Load=237/8192=3%, Rehash=0, Collisions=1/244=0%
-# Finished Make data base on Mon Mar 20 15:35:33 2023
+# Load=238/8192=3%, Rehash=0, Collisions=2/245=1%
+# Finished Make data base on Mon Mar 27 15:02:04 2023
 
  
