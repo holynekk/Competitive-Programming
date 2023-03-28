@@ -6,7 +6,7 @@ make all --print-data-base --no-builtin-variables --no-builtin-rules --question
 # This is free software: you are free to change and redistribute it.
 # There is NO WARRANTY, to the extent permitted by law.
 
-# Make data base, printed on Mon Mar 27 22:49:33 2023
+# Make data base, printed on Tue Mar 28 12:36:32 2023
 
 # Variables
 
@@ -99,13 +99,13 @@ MAKEFILE_LIST := makefile
 # automatic
 @F = $(notdir $@)
 # environment
-VSCODE_PID = 156402
+VSCODE_PID = 6020
 # environment
 XDG_SESSION_TYPE = x11
 # automatic
 ?D = $(patsubst %/,%,$(dir $?))
 # environment
-SESSION_MANAGER = local/HolyMoly:@/tmp/.ICE-unix/3795,unix/HolyMoly:/tmp/.ICE-unix/3795
+SESSION_MANAGER = local/HolyMoly:@/tmp/.ICE-unix/4322,unix/HolyMoly:/tmp/.ICE-unix/4322
 # automatic
 *F = $(notdir $*)
 # environment
@@ -147,7 +147,7 @@ LC_MONETARY = tr_TR.UTF-8
 # environment
 LC_TIME = tr_TR.UTF-8
 # environment
-INVOCATION_ID = ecc66c6a9fbc4bae83cea60bc939af74
+INVOCATION_ID = 280b68a73c16431ea2892d62142b2d3c
 # environment
 USERNAME = holynekk
 # environment
@@ -173,7 +173,7 @@ GIO_LAUNCHED_DESKTOP_FILE = /usr/share/applications/code.desktop
 # makefile
 .DEFAULT_GOAL := all
 # environment
-SYSTEMD_EXEC_PID = 3815
+SYSTEMD_EXEC_PID = 4342
 # environment
 DISPLAY = :1
 # environment
@@ -185,13 +185,13 @@ DEFAULTS_PATH = /usr/share/gconf/ubuntu.default.path
 # default
 MAKE_VERSION := 4.3
 # environment
-MANAGERPID = 3532
+MANAGERPID = 3955
 # environment
 LC_MEASUREMENT = tr_TR.UTF-8
 # environment
 NODE_TLS_REJECT_UNAUTHORIZED = 0
 # environment
-GIO_LAUNCHED_DESKTOP_FILE_PID = 156402
+GIO_LAUNCHED_DESKTOP_FILE_PID = 6020
 # environment
 _ = /usr/share/code/code
 # environment
@@ -201,7 +201,7 @@ XDG_RUNTIME_DIR = /run/user/1000
 # environment
 GPG_AGENT_INFO = /run/user/1000/gnupg/S.gpg-agent:0:1
 # environment
-JOURNAL_STREAM = 8:39745
+JOURNAL_STREAM = 8:46609
 # environment
 XDG_SESSION_CLASS = user
 # environment
@@ -241,9 +241,9 @@ LC_IDENTIFICATION = tr_TR.UTF-8
 
 # Directories
 
-# . (device 66308, inode 3018703): 237 files, no impossibilities.
+# . (device 66308, inode 3018703): 238 files, no impossibilities.
 
-# 237 files, no impossibilities in 1 directories.
+# 238 files, no impossibilities in 1 directories.
 
 # Implicit Rules
 
@@ -288,8 +288,8 @@ all:
 	git push
 
 # Not a target:
- 
 makefile:
+ 
 #  Implicit rule search has been done.
 #  Last modified 2022-02-22 02:55:48.559773277
 #  File has been updated.
@@ -309,12 +309,12 @@ makefile:
 
 # No general ('VPATH' variable) search path.
 
-# strcache buffers: 1 (0) / strings = 242 / storage = 6809 B / avg = 28 B
-# current buf: size = 8162 B / used = 6809 B / count = 242 / avg = 28 B
+# strcache buffers: 1 (0) / strings = 243 / storage = 6837 B / avg = 28 B
+# current buf: size = 8162 B / used = 6837 B / count = 243 / avg = 28 B
 
-# strcache performance: lookups = 249 / hit rate = 2%
+# strcache performance: lookups = 250 / hit rate = 2%
 # hash-table stats:
-# Load=242/8192=3%, Rehash=0, Collisions=3/249=1%
-# Finished Make data base on Mon Mar 27 22:49:33 2023
+# Load=243/8192=3%, Rehash=0, Collisions=3/250=1%
+# Finished Make data base on Tue Mar 28 12:36:32 2023
 
  
