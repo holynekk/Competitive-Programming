@@ -6,7 +6,7 @@ make all --print-data-base --no-builtin-variables --no-builtin-rules --question
 # This is free software: you are free to change and redistribute it.
 # There is NO WARRANTY, to the extent permitted by law.
 
-# Make data base, printed on Wed May 31 21:56:27 2023
+# Make data base, printed on Wed May 31 21:57:08 2023
 
 # Variables
 
@@ -99,7 +99,7 @@ MAKEFILE_LIST := makefile
 # automatic
 @F = $(notdir $@)
 # environment
-VSCODE_PID = 310744
+VSCODE_PID = 313311
 # environment
 XDG_SESSION_TYPE = x11
 # automatic
@@ -191,7 +191,7 @@ MANAGERPID = 3005
 # environment
 LC_MEASUREMENT = tr_TR.UTF-8
 # environment
-GIO_LAUNCHED_DESKTOP_FILE_PID = 310744
+GIO_LAUNCHED_DESKTOP_FILE_PID = 313311
 # environment
 _ = /usr/share/code/code
 # environment
@@ -243,9 +243,9 @@ LC_IDENTIFICATION = tr_TR.UTF-8
 
 # Directories
 
-# . (device 66308, inode 3018703): 265 files, no impossibilities.
+# . (device 66308, inode 3018703): 266 files, no impossibilities.
 
-# 265 files, no impossibilities in 1 directories.
+# 266 files, no impossibilities in 1 directories.
 
 # Implicit Rules
 
@@ -279,6 +279,7 @@ all:
 # automatic
 # ^ := 
 # automatic
+ 
 # ? := 
 # automatic
 # | := 
@@ -291,7 +292,6 @@ all:
 
 # Not a target:
 makefile:
- 
 #  Implicit rule search has been done.
 #  Last modified 2022-02-22 02:55:48.559773277
 #  File has been updated.
@@ -311,12 +311,12 @@ makefile:
 
 # No general ('VPATH' variable) search path.
 
-# strcache buffers: 1 (0) / strings = 270 / storage = 7644 B / avg = 28 B
-# current buf: size = 8162 B / used = 7644 B / count = 270 / avg = 28 B
+# strcache buffers: 1 (0) / strings = 271 / storage = 7663 B / avg = 28 B
+# current buf: size = 8162 B / used = 7663 B / count = 271 / avg = 28 B
 
-# strcache performance: lookups = 277 / hit rate = 2%
+# strcache performance: lookups = 278 / hit rate = 2%
 # hash-table stats:
-# Load=270/8192=3%, Rehash=0, Collisions=5/277=2%
-# Finished Make data base on Wed May 31 21:56:27 2023
+# Load=271/8192=3%, Rehash=0, Collisions=5/278=2%
+# Finished Make data base on Wed May 31 21:57:08 2023
 
  
