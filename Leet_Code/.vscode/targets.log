@@ -6,7 +6,7 @@ make all --print-data-base --no-builtin-variables --no-builtin-rules --question
 # This is free software: you are free to change and redistribute it.
 # There is NO WARRANTY, to the extent permitted by law.
 
-# Make data base, printed on Sat Jul 15 20:47:49 2023
+# Make data base, printed on Sun Jul 30 16:32:06 2023
 
 # Variables
 
@@ -20,6 +20,8 @@ GNOME_SHELL_SESSION_MODE = ubuntu
 SSH_AGENT_LAUNCHER = gnome-keyring
 # environment
 GJS_DEBUG_OUTPUT = stderr
+# environment
+KAFKA_HOME = /opt/kafka/kafka_2.12-3.5.1
 # environment
 MANDATORY_PATH = /usr/share/gconf/ubuntu.mandatory.path
 # environment
@@ -61,7 +63,7 @@ XDG_DATA_DIRS = /usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/
 # environment
 NVM_INC = /home/holynekk/.nvm/versions/node/v18.4.0/include/node
 # environment
-VSCODE_CODE_CACHE_PATH = /home/holynekk/.config/Code/CachedData/695af097c7bd098fbf017ce3ac85e09bbc5dda06
+VSCODE_CODE_CACHE_PATH = /home/holynekk/.config/Code/CachedData/74f6148eb9ea00507ec113ec51c489d6ffb4b771
 # environment
 LANG = C
 # environment
@@ -99,13 +101,13 @@ MAKEFILE_LIST := makefile
 # automatic
 @F = $(notdir $@)
 # environment
-VSCODE_PID = 125128
+VSCODE_PID = 14812
 # environment
 XDG_SESSION_TYPE = x11
 # automatic
 ?D = $(patsubst %/,%,$(dir $?))
 # environment
-SESSION_MANAGER = local/HolyMoly:@/tmp/.ICE-unix/2987,unix/HolyMoly:/tmp/.ICE-unix/2987
+SESSION_MANAGER = local/HolyMoly:@/tmp/.ICE-unix/3354,unix/HolyMoly:/tmp/.ICE-unix/3354
 # automatic
 *F = $(notdir $*)
 # environment
@@ -135,7 +137,7 @@ MAKELEVEL := 0
 # default
 MAKE = $(MAKE_COMMAND)
 # environment
-PATH = /home/holynekk/.local/bin:/home/holynekk/.nvm/versions/node/v18.4.0/bin:/home/holynekk/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin
+PATH = /home/holynekk/.local/bin:/home/holynekk/.nvm/versions/node/v18.4.0/bin:/home/holynekk/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/opt/kafka/kafka_2.12-3.5.1/bin:/opt/kafka/kafka_2.12-3.5.1/bin
 # default
 MAKEFILES := 
 # environment
@@ -147,7 +149,7 @@ LC_MONETARY = tr_TR.UTF-8
 # environment
 LC_TIME = tr_TR.UTF-8
 # environment
-INVOCATION_ID = a9be11f560ba4fbb936f876d8c8b3460
+INVOCATION_ID = 448d177b6b374d829decda83e6bca300
 # environment
 USERNAME = holynekk
 # environment
@@ -175,7 +177,7 @@ GIO_LAUNCHED_DESKTOP_FILE = /usr/share/applications/code.desktop
 # makefile
 .DEFAULT_GOAL := all
 # environment
-SYSTEMD_EXEC_PID = 3007
+SYSTEMD_EXEC_PID = 3375
 # environment
 DISPLAY = :1
 # environment
@@ -187,11 +189,11 @@ DEFAULTS_PATH = /usr/share/gconf/ubuntu.default.path
 # default
 MAKE_VERSION := 4.3
 # environment
-MANAGERPID = 2727
+MANAGERPID = 3092
 # environment
 LC_MEASUREMENT = tr_TR.UTF-8
 # environment
-GIO_LAUNCHED_DESKTOP_FILE_PID = 125128
+GIO_LAUNCHED_DESKTOP_FILE_PID = 14812
 # environment
 _ = /usr/share/code/code
 # environment
@@ -201,7 +203,7 @@ XDG_RUNTIME_DIR = /run/user/1000
 # environment
 GPG_AGENT_INFO = /run/user/1000/gnupg/S.gpg-agent:0:1
 # environment
-JOURNAL_STREAM = 8:41760
+JOURNAL_STREAM = 8:48503
 # environment
 XDG_SESSION_CLASS = user
 # environment
@@ -213,7 +215,7 @@ QT_IM_MODULE = ibus
 # environment
 ELECTRON_RUN_AS_NODE = 1
 # environment
-VSCODE_IPC_HOOK = /run/user/1000/vscode-09247fed-1.79-main.sock
+VSCODE_IPC_HOOK = /run/user/1000/vscode-09247fed-1.80-main.sock
 # environment
 IM_CONFIG_PHASE = 1
 # environment
@@ -233,7 +235,7 @@ GDMSESSION = ubuntu
 # environment
 LC_IDENTIFICATION = tr_TR.UTF-8
 # variable set hash-table stats:
-# Load=111/1024=11%, Rehash=0, Collisions=5/144=3%
+# Load=112/1024=11%, Rehash=0, Collisions=5/145=3%
 
 # Pattern-specific Variable Values
 
@@ -241,9 +243,9 @@ LC_IDENTIFICATION = tr_TR.UTF-8
 
 # Directories
 
-# . (device 66308, inode 3018703): 269 files, no impossibilities.
+# . (device 66308, inode 3018703): 271 files, no impossibilities.
 
-# 269 files, no impossibilities in 1 directories.
+# 271 files, no impossibilities in 1 directories.
 
 # Implicit Rules
 
@@ -278,7 +280,6 @@ all:
 # ^ := 
 # automatic
 # ? := 
- 
 # automatic
 # | := 
 # variable set hash-table stats:
@@ -291,6 +292,7 @@ all:
 # Not a target:
 makefile:
 #  Implicit rule search has been done.
+ 
 #  Last modified 2022-02-22 02:55:48.559773277
 #  File has been updated.
 #  Successfully updated.
@@ -309,12 +311,12 @@ makefile:
 
 # No general ('VPATH' variable) search path.
 
-# strcache buffers: 1 (0) / strings = 274 / storage = 7751 B / avg = 28 B
-# current buf: size = 8162 B / used = 7751 B / count = 274 / avg = 28 B
+# strcache buffers: 1 (0) / strings = 276 / storage = 7807 B / avg = 28 B
+# current buf: size = 8162 B / used = 7807 B / count = 276 / avg = 28 B
 
-# strcache performance: lookups = 281 / hit rate = 2%
+# strcache performance: lookups = 283 / hit rate = 2%
 # hash-table stats:
-# Load=274/8192=3%, Rehash=0, Collisions=5/281=2%
-# Finished Make data base on Sat Jul 15 20:47:49 2023
+# Load=276/8192=3%, Rehash=0, Collisions=5/283=2%
+# Finished Make data base on Sun Jul 30 16:32:06 2023
 
  
