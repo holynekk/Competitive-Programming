@@ -1,3 +1,3 @@
 # Competitive-Programming
 
-Some competitive programming experience shit
+Some competitive programming experience
